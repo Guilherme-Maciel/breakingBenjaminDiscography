@@ -1,0 +1,93 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #220b13;
+    overflow-x: hidden;
+}
+
+
+#container header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 26rem;
+    background-image: url(/img/aurora_banner.png);
+    background-size: 100% 26rem;
+    background-repeat: no-repeat;
+
+}
+
+#container header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+#container section .discography{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container section .discography h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+#container section .album{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container section .album .info-album{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container section .album img{
+    border-radius: 1rem;
+}
+
+#container section .album .info-album div p{
+    background-color: grey;
+    border-radius: 10rem;
+    opacity: 0.4;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+#container section .album .info-album div a{
+    font-size: 1.5rem;
+}
+
+#container section .album .info-album div{
+    margin-left: 5rem;
+}
+#container footer{
+    margin-top: 3rem;
+}
+
+#container footer center p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 50;
+}

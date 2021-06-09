@@ -1,0 +1,135 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #564533;
+   
+}
+
+
+#container section .album-name{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+#container section .album-name h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+
+}
+#container section h1 a{
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 10rem;
+}
+
+#container section .album{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#container section .album .info-album{
+    height: auto;
+    display: inline-block;
+    margin-left: 5rem;
+
+}
+
+#container section .album .info-album div p{
+    width: 65rem;
+    background-color: gray;
+    border-radius: 10rem;
+    opacity: 0.4;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+#container section .album .info-album div a{
+    font-size: 1.5rem;
+}
+
+#container section .album .info-album div{
+    margin-left: 5rem;
+    
+}
+
+#container section .album img{
+    border-radius: 1rem;
+}
+
+#container section p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+#container section audio{
+    margin-bottom: 3rem;
+}
+
+#container section .container-track{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+
+    
+
+}
+
+#container section .container-track .track{
+    width: 100%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3b3125;
+    border-radius: 10px;
+
+}
+
+#container section .container-track .track .song{
+    display: inline-block;
+}
+#container section .container-track .track .time{
+    display: inline-block;
+    justify-self: end;
+}
+#container section .container-track .track .this-album{
+    margin: auto;
+    display: inline-block;
+    
+}
+#container footer{
+    margin-top: 3rem;
+}
+
+#container footer center p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 50;
+}
